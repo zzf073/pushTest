@@ -1,0 +1,8 @@
+
+calhost:pushTest ADMIN$ openssl pkcs12 -nocerts -nodes -in devPush.p12 -out private.pem
+Enter Import Password:
+MAC verified OK
+localhost:pushTest ADMIN$ openssl pkcs12 -in devPush.p12 -out ck.pem -nodes  
+Enter Import Password:
+MAC verified OK
+
